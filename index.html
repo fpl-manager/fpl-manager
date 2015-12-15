@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <title>League Viewer</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Up-to-date fantasy premier league tables">
+    <meta name="keywords" content="fantasy, premier league, soccer, football, league, manager">
+
+    <meta name="theme-color" content="#333333">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link href="style/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <form id="league-id-form">
+            <input id="league-id-input" type="text" placeholder="Enter a league id..." />
+            <div id="progress">
+                <div id="bar" style="display: none; width: 0"></div>
+            </div>
+            <div id="league-id-label" style="display: none"></div>
+        </form>
+        <div id="loading-indicator" style="display: none">Loading...</div>
+        <table id="league" style="display: none"></table>
+    </div>
+    <script data-main="app" src="scripts/require.js"></script>
+</body>
+</html>

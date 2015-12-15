@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #333;
+    color: white;
+    font-family: Lato, tahoma, verdana, arial, sans-serif;
+    text-shadow: 0 -1px rgba(0,0,0,.8);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+h1 {
+    font-size: 36pt;
+}
+a {
+    color: #aaa;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    cursor: pointer;
+}
+input:-webkit-autofill {
+    color: white !important;
+    -webkit-box-shadow: 0 0 0 100px #333 inset;
+}
+
+.head {
+    background-color: #222;
+    padding: 40px 10px;
+    text-align: center;
+}
+.content {
+    margin: 10px auto;
+    max-width: 500px;
+}
+
+#league-id-form {
+    margin-bottom: 20px;
+}
+#league-id-input {
+    background-color: #333;
+    border: 0;
+    border-bottom: 1px solid #aaa;
+    color: white;
+    margin: 0;
+    max-width: 500px;
+    padding: 10px;
+    width: 100%;
+}
+#league-id-input:focus{
+    border-bottom-color: white;
+    outline: 0;
+}
+#league-id-label {
+    color: #aaa;
+    font-size: 10pt;
+}
+
+#progress {
+    width: 100%;
+}
+#bar {
+    background-color: #8F11B3;
+    height: 2px;
+}
+
+#league {
+    white-space: nowrap;
+    width: 100%;
+}
